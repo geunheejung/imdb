@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
+// SEO에 도움이 된다. 아울러 페이지별로 metaData를 다르게 설정해줄 수 있다.
 export const metadata = {
   title: "IMDb Clone",
   description: "This is the IMDb clone website",
